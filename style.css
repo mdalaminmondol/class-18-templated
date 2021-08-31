@@ -1,0 +1,496 @@
+/* header part start */
+
+.header{
+    background: #FFFEFF;
+    border-bottom: 2px  solid #ddd;
+    padding: 5px 0;
+}
+
+.header-logo img{
+    width: 140px;
+}
+
+
+.header-menu ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+    font-size: 20px;
+    color: #282528;
+    font-family: 'Work Sans', sans-serif;
+    padding: 29px 15px;
+    text-decoration: none;
+}
+
+/* header part end */
+
+/* baner part start */
+
+.baner{
+    background: url(./image/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 220px;
+
+    position: relative;
+}
+.baner::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.52);
+}
+.banner-heading h3{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.banner-heading h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    margin: 30px;
+}
+.banner-heading .btn{
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color:#767676;
+    background: #FFFEFF;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: .4s;
+}
+
+.banner-heading .btn:hover{
+    background: #DAA041;
+    color: #FFFEFF;
+    border: 1px solid transparent;
+}
+
+
+/* baner part end */
+
+/* price part start */
+
+.price{
+    background:#F7F7F7;
+    padding: 70px;
+}
+.price-content h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.price-content p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.p-itamss{
+    margin-top: 100px;
+   
+}
+
+.p-heading{
+    border-bottom: 1px solid#ddd;
+    padding: 40px 40px;
+}
+.p-heading h3{
+    font-family: 'Work Sans', sans-serif;
+}
+.p-heading h1 {
+	font-family: 'Work Sans', sans-serif;
+	background: #F5F5F5;
+	font-size: 50px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+    font-weight: 600;
+}
+.p-heading h1 span{
+    font-size: 30px;
+
+}
+.p-heading h4{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.p-heading p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    color: #767676;
+}
+
+
+.p-contant{
+   
+}
+.p-contant ul{
+    list-style: none;
+}
+.p-contant ul li{
+    font-size: 25px;
+    padding: 20px;
+    color: #767676;
+}
+.p-contant ul li span{
+    font-size: 30px;
+    color:#DAA041 ;
+}
+
+.button .btnn{
+    border: 1px solid#ddd;
+    display: inline-block;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #767676;
+    box-shadow: 5px 10px 20px 10px #F5F5F5;
+    text-decoration: none;
+} 
+
+.p-itamss:hover .p-heading{
+    background:#DAA041 ;
+    color: white;
+}
+.p-itamss:hover .btnn{
+    background:#DAA041 ;
+    color: white;
+}
+.p-itamss:hover h1{
+    background:#DAA041 ;
+}
+.p-itamss:hover p{
+   color: white;
+}
+
+
+
+/* price part end */
+
+/* team part start */
+
+.team{
+    padding: 60px;
+}
+.team-h h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight:400;
+}
+
+.team-img{
+    margin-top:70px ;
+    border: 5px double #DAA041;
+}
+.team-logo img{
+    max-width: 100%;
+   
+}
+.team-logo h3{
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20px;
+}
+.team-logo p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: #767676;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* team part end */
+
+/* newesleater part start */
+
+.newpaper{
+    background: #F5F5F5;
+    padding: 100px;
+}
+.new-heading p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    color: #767676;
+}
+.new-heading h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.form{}
+.form .ala{
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #AA972C;
+}
+.form .ala:focus{
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+.form .al{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #AA972C;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #AA972C ;
+    transition: .4s;
+}
+.form .al:hover{
+    background: #FFFDFD;
+    color: #d69823;
+    border: 1px solid #d69823;
+    
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+    
+}
+
+
+/* newesleater part end */
+
+/* about part start */
+
+.about{
+    padding: ;
+}
+.about-heading h1{
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.about-img{
+    margin-top: 30px;
+}
+
+.abott-list{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.abott-list h3{
+    font-family: 'Work Sans', sans-serif;
+}
+.abott-list span{
+  margin-left: 30px;   
+}
+.abott-list p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #767676;
+    margin: 20px;
+}
+
+
+/* about part end */
+
+/* application part start */
+.application{
+    background: #F5F5F5;
+    padding: 60px;
+}
+.applicatio-heading p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    color: #767676;
+}
+.applicatio-heading h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+.aplitaciton-itam{
+    margin-top: 50px;
+    border: 2px solid #ddd;
+}
+
+.aplication-lorem{
+    padding: 30px 30px;
+    background-color:white;
+}
+
+.aplication-lorem p{
+    font-size: 20px;
+    color: #767676;
+    position: relative;
+}
+.aplication-lorem p span{
+    font-size: 40px;
+    color: #ddd;
+
+    position: absolute;
+    top:-18px;
+    left: 0;
+
+    opacity: .5;
+}
+
+.aplitaciton-itam img{
+  width: 100px;
+  margin-top: 60px;
+  margin-left:40px;
+  border: 7px solid #AA972C;
+ 
+}
+.a-o{
+    position: relative;
+    top: -90px;
+    left: 180px;
+}
+.a-o p{
+    font-size: 20px;
+    color: #767676;
+}
+.aplication-lorem p{
+    position: relative;
+}
+   .aplication-lorem p::after{
+       content: "";
+       position: absolute;
+       right: 0;
+       left: 0;
+       bottom: -65px;
+       margin: auto;
+
+       width: 0;
+       height: 0;
+       border-style: solid;
+       border-width: 20px 17.5px 0 17.5px;
+       border-color: white transparent transparent transparent;
+       
+
+   } 
+
+
+
+/* application part end */
+
+
+/* contact part start */
+
+.contact{
+    padding: 50px;
+   
+}
+
+.conact-heading h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+.conact-heading p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    color: #767676;
+}
+
+
+.form-part{
+    margin-top: 100px;
+}
+
+.form-itam .a{
+    width: 600px;
+    height: 60px;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid #AA972C;
+    border-radius: 15px;
+    padding: 10px;
+}
+.form-itam .a:focus{
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+.form-itam .al{
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid #AA972C;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 250px;
+}
+.form-itam .al:focus{
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+.form-itam .ala{
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid #AA972C;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 250px;
+}
+.form-itam .ala:focus{
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+
+.form-itam .alam{
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid #AA972C;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.form-itam .alam:focus{
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+
+.form-itam .as{
+    border: 1px solid#AA972C;
+    font-size: 25px ;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    background:#AA972C ;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.form-itam .as:hover{
+    color: #DDAD88;
+    background: white;
+    border: 1px solid#DDAD88;
+    box-shadow: 5px 5px 20px 5px #b6b9d3;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+/* contact part end */
